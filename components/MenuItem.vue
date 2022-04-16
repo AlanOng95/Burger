@@ -10,7 +10,7 @@
     <p class="mt-5 mb-8">
       <span
         class="
-          rounded rounded-lg
+          rounded-lg
           bg-amber-800
           text-yellow-400
           font-oswald font-bold
