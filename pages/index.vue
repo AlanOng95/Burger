@@ -17,7 +17,7 @@
             "
           >
             <li>About Us</li>
-            <li>Our Menu</li>
+            <NuxtLink to="/menu">Our Menu</NuxtLink>
             <li>Locations</li>
             <li>Contacts</li>
           </ul>
