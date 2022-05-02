@@ -51,6 +51,10 @@ export default {
     '@nuxtjs/axios'
   ],
 
+  buildModules: [
+    '@nuxtjs/google-fonts'
+  ],
+
   firebase: {
     config: {
       apiKey: "AIzaSyAtFw5kkvrDQjgZGYdPJd8Yvv57K2lwNHw",
