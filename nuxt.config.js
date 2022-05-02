@@ -42,17 +42,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios'
-  ],
-
-  buildModules: [
-    '@nuxtjs/google-fonts'
   ],
 
   firebase: {
@@ -64,6 +61,15 @@ export default {
       messagingSenderId: "644102015146",
       appId: "1:644102015146:web:66bde5cf80f3e64e5f68d3",
       measurementId: "G-LGRNZJ50P1",
+    },
+  },
+
+  googleFonts: {
+    families: {
+      // a simple name
+      Roboto: true,
+      Lilita: true,
+      Oswald: true,
     },
   },
 
