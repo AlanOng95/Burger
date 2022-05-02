@@ -10,19 +10,19 @@
     >
       <thead>
         <tr>
+          <td colspan="4">
+            <h1 class="font-oswald uppercase text-2xl pb-10">
+              Order ID - {{ order.id }}
+            </h1>
+          </td>
+        </tr>
+        <tr>
           <th class="text-left">Name</th>
           <th class="text-right">Price</th>
           <th>Quantity</th>
           <th class="text-right">Total</th>
         </tr>
       </thead>
-      <tr>
-        <td colspan="4">
-          <h1 class="font-oswald uppercase text-2xl pb-10">
-            Order ID - {{ order.id }}
-          </h1>
-        </td>
-      </tr>
       <tbody>
         <tr
           v-for="item in order.data.orders"
