@@ -82,7 +82,7 @@
           px-8
         "
       >
-        Explore Full Menu
+        <NuxtLink to="/menu">Explore Full Menu</NuxtLink>
       </button>
     </div>
     <div
