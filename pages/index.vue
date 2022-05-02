@@ -1,18 +1,20 @@
 <template>
   <div>
     <div id="header" class="bg-[url('/hero-bg.jpg')] md:px-20 px-5">
-      <div id="menu" class="grid grid-cols-2 py-5">
+      <div id="menu" class="grid md:grid-cols-2 py-5">
         <div id="menu-left">
-          <img src="logo.png" class="w-[150px]" alt="" />
+          <img src="logo.png" class="w-[150px] mx-auto md:mx-0" alt="" />
         </div>
         <div id="menu-right">
           <ul
             class="
-              grid grid-cols-5
+              grid
+              md:grid-cols-5
               text-lg
               font-oswald
               text-white
               uppercase
+              text-center
               pt-5
             "
           >

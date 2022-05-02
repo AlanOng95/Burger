@@ -1,14 +1,22 @@
 <template>
   <div class="bg-[url('/menu-page.jpg')] px-20">
-    <div id="menu" class="grid grid-cols-2 py-5">
+    <div id="menu" class="grid md:grid-cols-2 py-5">
       <div id="menu-left">
         <NuxtLink to="/">
-          <img src="logo.png" class="w-[150px]" alt="" />
+          <img src="logo.png" class="w-[150px] mx-auto md:mx-0" alt="" />
         </NuxtLink>
       </div>
       <div id="menu-right">
         <ul
-          class="grid grid-cols-5 text-lg font-oswald text-white uppercase pt-5"
+          class="
+            grid
+            md:grid-cols-5
+            text-lg
+            font-oswald
+            text-white text-center
+            uppercase
+            pt-5
+          "
         >
           <li>About Us</li>
           <NuxtLink to="/menu">Our Menu</NuxtLink>

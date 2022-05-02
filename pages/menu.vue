@@ -1,7 +1,19 @@
 <template>
   <div>
     <MainMenuList header="Our Menu" />
-    <div id="items" class="grid grid-cols-3 gap-x-5 gap-y-16 mt-10 mx-20">
+    <div
+      id="items"
+      class="
+        grid
+        md:grid-cols-3
+        gap-x-5
+        md:gap-y-16
+        gap-y-5
+        mt-10
+        md:mx-20
+        mx-5
+      "
+    >
       <MenuItem v-for="b in items" :key="b.name" :item="b" />
     </div>
   </div>
